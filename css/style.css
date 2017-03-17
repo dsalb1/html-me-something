@@ -6,11 +6,6 @@ header, footer {
     background: #2c3e50;
 }
 
-header {
-	z-index:10;
-	position:fixed;
-}
-
 #logo {
 	padding:10px 0px 10px 40px;
 	color:black;
@@ -51,6 +46,10 @@ nav a:hover {
 	text-decoration:none;
 }
 
+nav a:last-child {
+	padding-right:30px;
+}
+
 .jumbotron {
 	margin-bottom:0px;
 	background-color:#1abc9c;
@@ -66,7 +65,8 @@ nav a:hover {
 }
 
 .didactic {
-	padding-top:50px;
+	padding-top:20px; 
+	padding-bottom:20px;
 }
 
 .odd {
